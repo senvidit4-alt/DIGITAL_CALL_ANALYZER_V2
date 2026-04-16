@@ -1,0 +1,14 @@
+# Professional gitignore for MCA Cyber Dost
+venv/
+__pycache__/
+*.pyc
+.env
+*.db
+node_modules/
+.DS_Store
+dist/
+.pytest_cache/
+.vscode/
+.idea/
+*.log
+temp_uploads/
