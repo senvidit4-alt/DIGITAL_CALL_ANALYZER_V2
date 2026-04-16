@@ -79,12 +79,29 @@ mca-cyber-dost/
 - Python 3.8+ & Node.js 18+
 
 ### 🛰️ Setup
-```bash
-# Backend
-cd backend && pip install -r requirements.txt && python app.py
 
-# Frontend
-cd frontend && npm install && npm run dev
+#### 1. Backend (AI Engine)
+```bash
+cd backend
+# Create Virtual Environment
+python -m venv venv
+
+# Activate Environment
+# On Windows:
+.\venv\Scripts\activate
+# On Linux/Mac:
+source venv/bin/activate
+
+# Install Dependencies & Run
+pip install -r requirements.txt
+python app.py
+```
+
+#### 2. Command UI (Frontend)
+```bash
+cd frontend
+npm install
+npm run dev
 ```
 
 ### 📞 National Cyber Helpline: 1930
